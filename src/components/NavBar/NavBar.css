@@ -1,0 +1,24 @@
+.NavBar {
+  background-color: #95a5a6;
+}
+
+.NavLink {
+  text-decoration: none;
+  padding-right: 1rem;
+}
+.nav-parent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-child-2 {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.navUser {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  line-height: 38px;
+}
