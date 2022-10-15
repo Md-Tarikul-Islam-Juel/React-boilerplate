@@ -9,7 +9,9 @@ function NavBar() {
   return (
     <Navbar className="NavBar" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-icon</Navbar.Brand>
+        <NavLink to="/" className="NavLink">
+          React-icon
+        </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav nav-parent">
           <Nav className="me-auto nav-child-1">

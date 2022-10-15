@@ -6,7 +6,7 @@ function Protected({ isLoggedIn, children }) {
   if (isLoggedIn) {
     return children;
   } else {
-    return <Navigate to="/Login" />;
+    return <Navigate to="/" />;
   }
 }
 
